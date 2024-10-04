@@ -1,0 +1,26 @@
+@if (showPayboxContent) {
+    <div class="paybox-container">
+        <div id="ButtonPaybox"></div>
+    </div>
+}
+
+@if (loading) {
+    <div class="loading-container">
+        <div class="spinner"></div>
+        <p class="loading-text">Solicitando transacción al backend, por favor espere...</p>
+    </div>
+}
+
+@if (transactionResponse && !loading) {
+    <div class="transaction-details">
+        <h3>Detalles de la Transacción</h3>
+        <div class="transaction-card">
+            <p><strong>ID de Transacción:</strong> {{ transactionResponse.id_transaccion }}</p>
+            <p><strong>Monto:</strong> {{ transactionResponse.monto }}$</p>
+            <p><strong>Emisor de tarjeta:</strong> {{ transactionResponse.emisor_tarjeta }}</p>
+            <p><strong>Marca:</strong> {{ transactionResponse.marca }}</p>
+            <p><strong>Nombre del cliente:</strong> {{ transactionResponse.cliente.nombres }}</p>
+            <p><strong>Fecha:</strong> {{ transactionResponse.fecha_transaccion }}</p>
+        </div>
+    </div>
+}

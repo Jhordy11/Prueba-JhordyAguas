@@ -1,0 +1,40 @@
+ {
+      "nombre": "Laptop",
+      "codigo": "LPT123",
+      "descripcion": "Laptop de alto rendimiento",
+      "categoria": "Electrónica",
+      "precio": "1200",
+      "stock": "50",
+      "fecha_ingreso": "2024-08-01",
+      "proveedor": "Proveedor1"
+    },
+    {
+      "nombre": "Smartphone",
+      "codigo": "SMP456",
+      "descripcion": "Smartphone con cámara de alta resolución",
+      "categoria": "Electrónica",
+      "precio": "800",
+      "stock": "100",
+      "fecha_ingreso": "2024-08-05",
+      "proveedor": "Proveedor2"
+    }
+ {
+      "cedula": 1234567890,
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "ciudad": "Ciudad1",
+      "email": "juan.perez@example.com",
+      "direccion": "Calle Falsa 123",
+      "telefono": "0987654321",
+      "fecha_nacimiento": "1990-01-01"
+    },
+    {
+      "cedula": 9876543210,
+      "nombre": "Ana",
+      "apellido": "Gómez",
+      "ciudad": "Ciudad2",
+      "email": "ana.gomez@example.com",
+      "direccion": "Avenida Siempre Viva 742",
+      "telefono": "0123456789",
+      "fecha_nacimiento": "1985-05-15"
+    }
